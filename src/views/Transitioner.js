@@ -7,6 +7,7 @@ import {
   StyleSheet,
   View,
 } from 'react-native';
+import PropTypes from 'prop-types';
 
 import invariant from 'fbjs/lib/invariant';
 
@@ -49,7 +50,6 @@ type State = {
   scenes: Array<NavigationScene>,
 };
 
-const { PropTypes } = React;
 
 const DefaultTransitionSpec = TransitionConfigs.DefaultTransitionSpec;
 
